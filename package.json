@@ -1,4 +1,7 @@
 {
+  "name": "shs-dashboard",
+  "version": "1.0.0",
+  "private": true,
   "dependencies": {
     "@craco/craco": "^7.0.0-alpha.9",
     "@tanstack/react-virtual": "^3.11.2",
@@ -9,12 +12,13 @@
     "webpack-bundle-analyzer": "^4.9.0"
   },
   "scripts": {
-    "dev": "craco start",
-    "start": "craco start",
-    "build": "craco build",
+    "dev": "next dev",
+    "start": "next start",
+    "build": "next build",
     "build:analyze": "cross-env ANALYZE=true craco build",
     "test": "craco test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "lint": "next lint"
   },
   "devDependencies": {
     "autoprefixer": "^10.4.20",
