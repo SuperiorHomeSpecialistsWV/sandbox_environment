@@ -8,7 +8,10 @@
   "scripts": {
     "start": "craco start",
     "build": "craco build",
-    "build:analyze": "ANALYZE=true craco build",
+    "build:analyze": "cross-env ANALYZE=true craco build",
     "test": "craco test"
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.3"
   }
 }
