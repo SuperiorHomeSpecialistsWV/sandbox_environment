@@ -1,6 +1,6 @@
 {
   "dependencies": {
-    "@tanstack/react-virtual": "^5.0.0",
+    "@tanstack/react-virtual": "^3.0.1",
     "compression-webpack-plugin": "^10.0.0",
     "webpack-bundle-analyzer": "^4.9.0",
     "@craco/craco": "^7.0.0-alpha.9"
