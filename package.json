@@ -3,16 +3,24 @@
     "@craco/craco": "^7.0.0-alpha.9",
     "@tanstack/react-virtual": "^3.11.2",
     "compression-webpack-plugin": "^10.0.0",
+    "framer-motion": "^11.18.1",
+    "lucide-react": "^0.473.0",
+    "postcss-cli": "^11.0.0",
     "webpack-bundle-analyzer": "^4.9.0"
   },
   "scripts": {
+    "dev": "craco start",
     "start": "craco start",
     "build": "craco build",
     "build:analyze": "cross-env ANALYZE=true craco build",
-    "test": "craco test"
+    "test": "craco test",
+    "eject": "react-scripts eject"
   },
   "devDependencies": {
-    "cross-env": "^7.0.3"
+    "autoprefixer": "^10.4.20",
+    "cross-env": "^7.0.3",
+    "postcss": "^8.5.1",
+    "tailwindcss": "^3.4.17"
   },
   "browserslist": {
     "production": [
