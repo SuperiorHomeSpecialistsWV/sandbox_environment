@@ -4,5 +4,11 @@
     "compression-webpack-plugin": "^10.0.0",
     "webpack-bundle-analyzer": "^4.9.0",
     "@craco/craco": "^7.0.0-alpha.9"
+  },
+  "scripts": {
+    "start": "craco start",
+    "build": "craco build",
+    "build:analyze": "ANALYZE=true craco build",
+    "test": "craco test"
   }
 }
