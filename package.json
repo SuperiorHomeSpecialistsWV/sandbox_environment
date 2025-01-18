@@ -1,9 +1,9 @@
 {
   "dependencies": {
-    "@tanstack/react-virtual": "^3.0.1",
+    "@craco/craco": "^7.0.0-alpha.9",
+    "@tanstack/react-virtual": "^3.11.2",
     "compression-webpack-plugin": "^10.0.0",
-    "webpack-bundle-analyzer": "^4.9.0",
-    "@craco/craco": "^7.0.0-alpha.9"
+    "webpack-bundle-analyzer": "^4.9.0"
   },
   "scripts": {
     "start": "craco start",
